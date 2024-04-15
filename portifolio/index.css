@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {  
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: #00FFFF;
+    text-decoration: none;
+}
+ img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #00FFFF;
+ }
+ .img_center {
+    text-align: center;
+ }
+
+header {
+    margin-top: 100px;
+    color: #4F4F4F	;
+}
+main {
+    display: flex;
+    justify-content: space-around; /* Isso distribuirá os elementos igualmente ao longo do eixo principal */
+    flex-wrap: wrap; /* Isso permite que os elementos quebrem para a próxima linha, se necessário */
+    margin-top: 100px;
+    align-items: center;
+}
+
+main h1 {
+    flex: 1; /* Isso permite que os elementos ocupem o espaço disponível igualmente */
+    max-width: 30%; /* Isso limitará a largura máxima de cada elemento para que eles não fiquem muito largos */
+    margin: 0 10px; /* Isso adiciona uma margem entre os elementos */
+    color: #00FFFF;
+}
+.cursos a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+ .lista1:hover {
+    color: white;
+    background-color: white;
+    border-radius: 0.25rem;
+}
+
+
