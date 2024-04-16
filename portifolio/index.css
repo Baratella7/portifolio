@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,13 +11,13 @@ ul {
     padding: 16px;
 }
 a{
-    color: #00FFFF;
+    color: black;
     text-decoration: none;
 }
  img {
     width: 150px;
     height: 150px;
-    border: 5px solid #00FFFF;
+    border-radius: 20px;
  }
  .img_center {
     text-align: center;
@@ -39,7 +39,7 @@ main h1 {
     flex: 1; /* Isso permite que os elementos ocupem o espaço disponível igualmente */
     max-width: 30%; /* Isso limitará a largura máxima de cada elemento para que eles não fiquem muito largos */
     margin: 0 10px; /* Isso adiciona uma margem entre os elementos */
-    color: #00FFFF;
+    color:black;
 }
 .cursos a {
     color: white;
@@ -51,5 +51,39 @@ main h1 {
     background-color: white;
     border-radius: 0.25rem;
 }
+.linguagens {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+.projetos{
+    background-color: rgb(140, 0, 255);
+    border-radius: 20px;
+}
+.cursos{
+    background-color: violet;
+    border-radius: 20px;
+}
+.cursos li{
+    list-style-type: none;
+}
+section {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projetos, .linguagens, .cursos {
+    flex-basis: 30%; /* Define a largura base de cada item para 30% da largura total da seção */
+    margin: 10px; /* Adiciona margem entre os itens */
+}
+.container {
+    background-color: red; /* Cor de fundo com transparência */
+    border-radius: 20px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Permite que os elementos dentro do contêiner sejam exibidos lado a lado */
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha, se necessário */
+    justify-content: space-around; /* Distribui os elementos igualmente ao longo do eixo principal */.
+}
+
+
 
 
