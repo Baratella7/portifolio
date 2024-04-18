@@ -1,0 +1,153 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4F4F4F	;
+    height: 100vh;
+}
+
+.cabeçalho  {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block ;
+    transition: .2s;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.07);
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: silver;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+herder .btn-contato button:hover{
+    box-sizing: 0px 0px silver;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 20%;
+}
+.container .icon-html{
+    padding: 60px 60px;
+
+}
+.container .css{
+    padding: 0px 220px;
+    margin-top: -180px;
+}
+.container .java {
+    padding: 0px 410px;
+    margin-top: -150px;
+}
+.container .lingC{
+    padding: 10px 133px;
+}
+.container .mysql{
+    padding: 10px 272px;
+    margin-top: -155px;
+}
+.container :hover{
+    transition: 0.1s;
+    transform: scale(1.07);
+}
+
+.container .icon-html,
+.container .css {
+    position: relative;
+}
+
+.comment {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: none;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.comment p {
+    margin: 0;
+}
+.imagem5 {
+    margin: 0;
+    padding: 0;
+}
+.imagem5 {
+    height: 320px; 
+}
+.imagem5 {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 50px;  
+}
+.imagem5 {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top:30px;
+    }
+}
+main .sobre {
+    margin-left: 680px;
+
+}
+   
+    
+
+
+
+
+
+
